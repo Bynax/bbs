@@ -1,8 +1,10 @@
 HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+mvnw.cmd
+mvnw
+.mvn/
 
 ### STS ###
 .apt_generated
@@ -31,3 +33,6 @@ build/
 
 ### VS Code ###
 .vscode/
+src/main/java/com/bohuanshi/bbs/Controller/
+src/main/resources/static/
+src/main/resources/templates/
